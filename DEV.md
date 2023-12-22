@@ -23,23 +23,23 @@ Solutions:
 
 - Use actual joints at the two ends, the whole moving part is a curve so can decide amplitude based on where the joint is attached on the curve
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled1.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%201.png)
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled2.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%202.png)
 
 - Started to look for ways to implement the mechanism I chose. First layout based on Keebio Iris I’ve been using for multiple years now
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled3.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%203.png)
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled4.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%204.png)
 
 - Added additional thumb key, designed base to be easily printable using fdm
     - Controller holder separated from main base because the overhangs would be extremely hard to print otherwise, all features on opposite side of main base
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled5.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%205.png)
 
 - Added slight tilt to thumb keys for better ergonomics
 
-![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled6.png)
+![Untitled](https://github.com/at1047/clarent/blob/main/photos/Untitled%206.png)
 
 - Reduced base length so keyboard can be lower while tented, added chamfers and TPU feet holes
