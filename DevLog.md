@@ -1,0 +1,46 @@
+# Dev Log
+
+Problem:
+
+- How to create a two bistable environments with different amplitudes for the pinky and ring finger column
+- 
+
+Solutions:
+
+- Sliding, bumps at the extremities to hold sliding part in place
+    - lots of friction
+    - wear out over time
+    - hard to tolerance with fdm
+- Sliding in general is hard to tolerance and wears out, and hard to make smooth
+- I want smooth
+- Compliant mechanism
+- 
+    
+    ![Afbeelding1.png](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Afbeelding1.png)
+    
+- Will have fatigue stress at the joints
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled.png)
+
+- Use actual joints at the two ends, the whole moving part is a curve so can decide amplitude based on where the joint is attached on the curve
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%201.png)
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%202.png)
+
+- Started to look for ways to implement the mechanism I chose. First layout based on Keebio Iris I’ve been using for multiple years now
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%203.png)
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%204.png)
+
+- Added additional thumb key, designed base to be easily printable using fdm
+    - Controller holder separated from main base because the overhangs would be extremely hard to print otherwise, all features on opposite side of main base
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%205.png)
+
+- Added slight tilt to thumb keys for better ergonomics
+
+![Untitled](Dev%20Log%201d96cbba76fe427092bbbac55de3d183/Untitled%206.png)
+
+- Reduced base length so keyboard can be lower while tented, added chamfers and TPU feet holes
