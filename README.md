@@ -1,43 +1,36 @@
-# Clarent (Gaming Split Ergonomic Keyboard)
+# Clarent (Split Ergonomic Keyboard)
 
-## Problems with conventional solutions
+## Motivation
 
-### Do nothing
+This is my solution for a split, tented, ortholinear keyboard for a gamer. **Clarent**. The Coward's blade. The Sword of Fire. The twin to Excalibur. Named for it's ability to flame people in game swiftly and decisively.
 
-- Column stagger good for regular typing, but the stagger is offset when home row is moved to WASD when gaming
-- Thumb/space placement is also moved when using WASD
-- Only control key on bottom left, missing a control for additional inputs (can’t move to thumb cluster, control key often use in conjunction with space key)
+## Features
 
-### Remapping game
+### Split
 
-- Original thumb space key is tap-dance for command/mod key. The short press key for Tap-dance is read on the falling edge, which is not good enough for gaming
-- A lot of games to remap
-- Not enough keys on the right of WASD for additional key-binds
-- Additional keys on the left, but pinky and ring finger is less dexterous than pointer finger
+The halves of the keyboard are split in the middle, allowing the user to position each hand's responsibility individually on the table. This allows for 
 
-### Gaming layer
+### Tented
 
-- Removes an entire column from the keyboard, can’t type normally
-- Needs pressing of a button, sometimes forget to switch layers even with visual cue (RGB)
+Because the keyboard is split in half, each half of the keyboard can be rotated so that the center part is higher than the sides. This is because when your arm is relaxed, your palms aren't parallel to the desk, rather at an angle, and tenting allows for the keyboard to mimic that relaxed angle.
 
-## Sliding Mechanism
+### Ortholinear
 
-- Use sacrificial layers for bridging
-- Add thin sand-able spacers to adjust tolerances after printing
-- Use gears??
-- Remove sliding mechanism, use pairs of compliant mechanism free-floating
+The keys on this keyboard are arranged in columns, rather than rows like a conventional keyboard. Each column has a designated finger, and they are arranged in a curve that mimics the difference in length in each finger on the hand (e.g. The columns in the middle are farther because the middle finger is longer).
 
-## Bi-stable Column Stagger
+Column stagger is great, until you have to game. Conventionally, the homerow, or where your index finger would be, is the **F** key, and all the columns are positioned in a way that's comfortable for that configuration. When it comes to game, typically your index finger will be on the **D** key, so everything is shifted over by one. In this case, the stagger that was designed for index finger on **F** starts to work against you.
 
-- Compliant mechanism
-- Design stress points to be along a curve, not a point
-- Multipart to avoid living hinges (stress on a point)
-- Nylok nuts to allow for pivot without overtightening
+There are a couple of existing solutions for this issue. One is to use a separate gaming layer. When a button is pressed, this toggles a different set of keystrokes bound to each key that shifts everything to the right by one, such that the default position for gaming moves from index on **D** back to index on **F**. I did this for a couple of years, but got tired of having to constantly toggle the layer on and off when trying to type normally mid-game, when I have to *communicate* with others...
 
-## Key Layout
+Another solution is to rebind each game manually. This is inconvenient...
 
-- Left Side
-    - Extra Shift key next to Control
-    - More horizontally angled Space Bar to allow for home-row Shift
-- Right side
-    - Extra Enter key to avoid tap-dance requirement of Shift and Enter
+which brings us to the last feature
+
+### Bistable
+
+Bistable means there are two stable states for the keyboard to be in. Physically, I can shift the left keyboard in sections, such that it can be switched between **Column Stagger** mode and **Ortholinear** mode, where all the keys are  in a grid and there is no more column stagger. This **Ortholinear** mode is way better to use during gaming, due to the column stagger no longer mismatched with index on **D**, and is usable for typing at the same time with minimal re-conditioning of my muscle memory.
+
+## Planned for V3
+
+- Lower profile to get side lower to table
+- Modular thumb cluster to fine tune thumb button placement
